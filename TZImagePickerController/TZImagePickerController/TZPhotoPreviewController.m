@@ -116,7 +116,7 @@
     
     UIView *maskStatusBar =
     [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 20)];
-    maskStatusBar.backgroundColor = _naviBar.backgroundColor;
+    maskStatusBar.backgroundColor = [UIColor colorWithRed:(17/255.0) green:(17/255.0)  blue:(17/255.0) alpha:0.7];
     _maskStatusBar = maskStatusBar;
     [[UIApplication sharedApplication].keyWindow addSubview:maskStatusBar];
 }
